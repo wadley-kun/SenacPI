@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Playwrite+CU:wght@100..400&display=swap');
+:root
+{
+    --bc-hd : #000000;
+    --bc-ft: #888686de;
+    --cor-link-hd: #ffffff;
+    --cor-nome-hd: linear-gradient(90deg, #ff8800, #fffb00);
+    --fonte-hd: "Nerko One", cursive;
+}
+
+header
+{
+    background-color: var(--bc-hd);
+    position: sticky;
+    align-content: center;
+    top: 0;
+    display: flex;
+    padding: 20px;
+    height: 100px;
+}
+
+footer
+{
+    background-color: var(--bc-ft);
+}
+
+a
+{
+    text-decoration: none;
+    color: var(--cor-link-hd);
+}
+
+img 
+{
+    width: 180px;
+    height: 130px;
+}
+
+
+.hd-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hd-link
+{
+    color: var(--cor-link-hd);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 20px;
+    margin-right: 20px;
+    gap: 40px;
+}
+
+.hd-nome
+{
+    font-family: var(--fonte-hd);
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 25px;
+    font-weight: bold;
+    background: var(--cor-nome-hd);
+    -webkit-background-clip: text; 
+    background-clip: text;        
+    color: transparent;
+}
+
+.opcao-menu
+{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    border: 2px solid black;
+}
+
+.opcao-menu-titulo
+{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
