@@ -4,6 +4,7 @@
     --bc-hd : #000000;
     --bc-ft: #888686de;
     --cor-link-hd: #ffffff;
+    --cor-add-bt: #f50202;
     --cor-nome-hd: linear-gradient(90deg, #ff8800, #fffb00);
     --fonte-hd: "Nerko One", cursive;
 }
@@ -69,11 +70,17 @@ img
     color: transparent;
 }
 
+.sc
+{
+    padding: 40px;
+}
+
 .opcao-menu
 {
     display: flex;
     justify-content: space-between;
     width: 500px;
+    margin: 10px 0px;
     border: 2px solid black;
 }
 
@@ -82,4 +89,16 @@ img
     font-size: 20px;
     font-weight: 700;
     
+}
+
+.add
+{   
+    display: flex;
+    margin-top: 40px;
+    padding: 5px;
+    color: var(--cor-link-hd);
+    background-color: var(--cor-add-bt);
+    border: 1px solid var(--bc-hd);
+    width: 150px;
+    cursor: pointer;
 }
